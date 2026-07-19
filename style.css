@@ -1,0 +1,44 @@
+body {
+  background-image: url('images/checker.jpg');
+}
+
+@font-face {
+  font-family: main; /* set name */
+  src: url(fonts/main.otf); /* url of the font */
+}
+
+p {
+  font-family: main; /* use font */
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: title; /* set name */
+  src: url(fonts/main.otf); /* url of the font */
+}
+
+h1, h2, h3 {
+    font-family: title;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+a {
+    font-family: main;
+    color: brown;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    cursor: url('images/cursor.png'), pointer;
+}
+
+#centerPLEASE
+{
+    text-align:center;
+}
+
+body {
+    cursor: url("images/cursor.png"), auto;
+}
